@@ -1,0 +1,36 @@
+* { box-sizing: border-box;}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #db7878;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.switch {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    top: 100px;
+    left: 50%;
+}
+
+.on {
+    background-color: white;
+}
+
+.off {
+    background-color: blue;
+}
